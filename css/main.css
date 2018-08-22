@@ -1,0 +1,116 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 55px;
+  color: #000000;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  clear: both;
+  margin: 0 auto;
+}
+.half-width {
+  width: 600px;
+  float: left;
+}
+.third-width {
+  width: 400px;
+  float: left;
+  text-align: center;
+}
+
+/***** HEADER *****/
+#header {
+  background-image: url("../img/hero-alt1.png");
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#hero-text {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  text-align: left;
+  padding-right: 20%;
+}
+
+/***** WORK *****/
+
+#work {
+  height: 1250px;
+}
+
+#jubilee #rogue #holstee {
+  margin: 10px 50px 10px 0px;
+}
+
+.project {
+  width: 600px;
+  height: 320px;
+  margin: 0px 0px 10px 0px;
+  padding: 10px 10px;
+}
+
+.project-title {
+  font-weight: 400;
+}
+
+/***** ABOUT *****/
+#about {
+  background-color: #403E3F;
+  height: 600px;
+  color: #FFFDFB;
+}
+
+/***** CONTACT *****/
+#contact {
+  height: 400px;
+}
+
+ul {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+  padding: 20px;
+}
+
+/***** FOOTER *****/
+footer {
+  text-align: center;
+}
+
+footer p {
+  padding-top: 30px;
+}
